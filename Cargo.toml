@@ -2,3 +2,7 @@
 name = "embed"
 version = "0.1.0"
 authors = ["Julian Grosshauser <julian@juliangrosshauser.com>"]
+
+[lib]
+name = "embed"
+crate-type = ["dylib"]
