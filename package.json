@@ -1,0 +1,26 @@
+{
+  "name": "embed",
+  "version": "0.1.0",
+  "description": "Rust Inside Other Languages",
+  "main": "embed.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliangrosshauser/embed.git"
+  },
+  "keywords": [
+    "rust",
+    "ffi"
+  ],
+  "author": "Julian Grosshauser <julian@juliangrosshauser.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juliangrosshauser/embed/issues"
+  },
+  "homepage": "https://github.com/juliangrosshauser/embed",
+  "dependencies": {
+    "ffi": "^2.0.0"
+  }
+}
