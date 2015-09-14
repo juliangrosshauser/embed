@@ -1,7 +1,7 @@
 use std::thread;
 
 #[no_mangle]
-fn process() {
+pub extern fn process() {
     let handles: Vec<_> = (0..10).map(|_| {
         thread::spawn(|| {
             let mut x = 0;
